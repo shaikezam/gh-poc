@@ -1,0 +1,18 @@
+{
+  "name": "alpine_bootstrap_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html --out-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alpinejs": "^3.13.5",
+    "bootstrap": "^5.0.1",
+    "express": "^4.18.2",
+    "express-http-proxy": "^2.0.0"
+  }
+}
