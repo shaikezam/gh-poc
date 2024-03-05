@@ -4,8 +4,7 @@
   "description": "",
   "source": "index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build index.html --dist-dir dist"
+    "build": "parcel build index.html --out-dir dist"
   },
   "keywords": [],
   "author": "",
