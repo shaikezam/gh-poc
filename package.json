@@ -4,7 +4,8 @@
   "description": "",
   "source": "index.html",
   "scripts": {
-    "build": "parcel build index.html --dist-dir dist --public-url ./"
+    "build": "parcel build index.html --dist-dir dist --public-url ./",
+    "md": "markdown-to-html --source temp.md --output bla.html"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "markdown-to-html-cli": "latest"
   }
 }
