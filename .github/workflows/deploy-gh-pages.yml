@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build MD to HTML
-        run: npm run md
+        run: npx run md
       - name: Build
         run: npm run build
       # 👇 Deploy steps
