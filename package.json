@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node server.js"
+    "start": "parcel",
+    "build": "parcel build --dist-dir public"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,9 @@
     "bootstrap": "^5.0.1",
     "express": "^4.18.2",
     "express-http-proxy": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "parcel": "^2.12.0"
   }
 }
