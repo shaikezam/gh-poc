@@ -1,3 +1,7 @@
+<!--rehype:style=display: flex; height: 230px; align-items: center; justify-content: center; font-size: 38px;-->
+
+Markdown Supports **Style**<!--rehype:style=color: red;-->
+
 ### Shai Zambrovski
 
 Software engineer specializing in backend development & software architecture.
